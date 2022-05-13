@@ -38,7 +38,7 @@ async def on_message(message):
       await message.channel.send('Hello!')
 
     if message.content.startswith('$help'):
-      await message.channel.send('I cannot doing anything now. Donate to help me upgrade. 🥰')
+      await message.channel.send('I cannot do anything now. Donate to help me upgrade. 🥰')
 
 
 keep_alive()
