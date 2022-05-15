@@ -35,7 +35,7 @@ async def on_message(message):
         #     return
 
     if message.content.startswith('$hello'):
-      await message.channel.send('Hello!')
+      await message.channel.send(f'Hello! {username}')
 
     if message.content.startswith('$help'):
       await message.channel.send('I cannot do anything now. Donate to help me upgrade. 🥰')
